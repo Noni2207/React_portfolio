@@ -48,3 +48,14 @@
     color: white;
     padding: 1rem; 
 }
+@media screen and (max-width:1300px){
+    .service{
+        display: block;
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    .cards{
+        justify-content: center;
+    }
+
+}

@@ -7,6 +7,7 @@
   body{
       background: #1b1b1b;
       font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
   }
  button{
     font-weight: bold;
@@ -47,6 +48,12 @@ span{
     font-size: 1.4rem;
     line-height: 150%;
 }
+@media screen and (max-width:1700px){
+    html{
+        font-size: 75%;
+    }
+   }
+
 
 
 
@@ -56,6 +63,7 @@ span{
       @import "./_nav.css";
       @import "./_ourWork.css";
       @import "./_movieDetails.css";
+      @import "./_contactUs.css";
   
 
 
